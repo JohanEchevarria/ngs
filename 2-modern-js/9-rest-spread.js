@@ -14,3 +14,8 @@ const newArray = [...restOfItems];
 const newObject = {
   ...person,
 };
+
+//Challenge
+const arreglo1 = ['two','three'];
+const arreglo2 = ['one', ...arreglo1,'four','five'] 
+console.log(arreglo2);

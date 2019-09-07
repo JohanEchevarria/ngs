@@ -12,7 +12,9 @@ for (var i = 1; i <= 10; i++) {
 
 function sum(a, b) {
   // Function Scope
-  var result = a + b;
+  let result = a + b;
 }
 
 sum(4 + 3);
+console.log(result);
+//console.log(i);
